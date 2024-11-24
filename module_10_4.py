@@ -19,7 +19,6 @@ class Guest(threading.Thread):
 
     def run(self):
         rand = random.randint(3, 10)
-        print(self.name)
         time.sleep(rand)
 
 class Cafe():
